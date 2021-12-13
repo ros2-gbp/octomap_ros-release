@@ -1,0 +1,13 @@
+Source: ros-foxy-octomap-ros
+Section: misc
+Priority: optional
+Maintainer: Wolfgang Merkt <opensource@wolfgangmerkt.com>
+Build-Depends: debhelper (>= 9.0.0), ros-foxy-ament-cmake-auto, ros-foxy-ament-cmake-gtest, ros-foxy-ament-lint-auto, ros-foxy-ament-lint-common, ros-foxy-octomap, ros-foxy-octomap-msgs, ros-foxy-sensor-msgs, ros-foxy-tf2, ros-foxy-ros-workspace
+Homepage: http://ros.org/wiki/octomap_ros
+Standards-Version: 3.9.2
+
+Package: ros-foxy-octomap-ros
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-foxy-octomap, ros-foxy-octomap-msgs, ros-foxy-sensor-msgs, ros-foxy-tf2, ros-foxy-ros-workspace
+Description: octomap_ros provides conversion functions between ROS and OctoMap's native types.
+ This enables a convenvient use of the octomap package in ROS.
