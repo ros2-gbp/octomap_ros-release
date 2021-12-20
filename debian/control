@@ -1,0 +1,13 @@
+Source: ros-galactic-octomap-ros
+Section: misc
+Priority: optional
+Maintainer: Wolfgang Merkt <opensource@wolfgangmerkt.com>
+Build-Depends: debhelper (>= 9.0.0), ros-galactic-ament-cmake-auto, ros-galactic-ament-cmake-gtest, ros-galactic-ament-lint-auto, ros-galactic-ament-lint-common, ros-galactic-octomap, ros-galactic-octomap-msgs, ros-galactic-sensor-msgs, ros-galactic-tf2, ros-galactic-ros-workspace
+Homepage: http://ros.org/wiki/octomap_ros
+Standards-Version: 3.9.2
+
+Package: ros-galactic-octomap-ros
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-galactic-octomap, ros-galactic-octomap-msgs, ros-galactic-sensor-msgs, ros-galactic-tf2, ros-galactic-ros-workspace
+Description: octomap_ros provides conversion functions between ROS and OctoMap's native types.
+ This enables a convenvient use of the octomap package in ROS.
