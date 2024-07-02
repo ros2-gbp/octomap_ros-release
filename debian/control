@@ -1,0 +1,13 @@
+Source: ros-humble-octomap-ros
+Section: misc
+Priority: optional
+Maintainer: Wolfgang Merkt <opensource@wolfgangmerkt.com>
+Build-Depends: debhelper (>= 9.0.0), liboctomap-dev, ros-humble-ament-cmake-auto, ros-humble-ament-cmake-gtest <!nocheck>, ros-humble-ament-lint-auto <!nocheck>, ros-humble-ament-lint-common <!nocheck>, ros-humble-octomap-msgs, ros-humble-sensor-msgs, ros-humble-tf2, ros-humble-ros-workspace
+Homepage: http://ros.org/wiki/octomap_ros
+Standards-Version: 3.9.2
+
+Package: ros-humble-octomap-ros
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, liboctomap-dev, ros-humble-octomap-msgs, ros-humble-sensor-msgs, ros-humble-tf2, ros-humble-ros-workspace
+Description: octomap_ros provides conversion functions between ROS and OctoMap's native types.
+ This enables a convenvient use of the octomap package in ROS.
