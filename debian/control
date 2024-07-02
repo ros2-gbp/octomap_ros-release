@@ -1,0 +1,13 @@
+Source: ros-iron-octomap-ros
+Section: misc
+Priority: optional
+Maintainer: Wolfgang Merkt <opensource@wolfgangmerkt.com>
+Build-Depends: debhelper (>= 9.0.0), liboctomap-dev, ros-iron-ament-cmake-auto, ros-iron-ament-cmake-gtest <!nocheck>, ros-iron-ament-lint-auto <!nocheck>, ros-iron-ament-lint-common <!nocheck>, ros-iron-octomap-msgs, ros-iron-sensor-msgs, ros-iron-tf2, ros-iron-ros-workspace
+Homepage: http://ros.org/wiki/octomap_ros
+Standards-Version: 3.9.2
+
+Package: ros-iron-octomap-ros
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, liboctomap-dev, ros-iron-octomap-msgs, ros-iron-sensor-msgs, ros-iron-tf2, ros-iron-ros-workspace
+Description: octomap_ros provides conversion functions between ROS and OctoMap's native types.
+ This enables a convenvient use of the octomap package in ROS.
