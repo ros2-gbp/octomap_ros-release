@@ -1,0 +1,23 @@
+ros-rolling-octomap-ros (0.4.5-1bookworm) bookworm; urgency=high
+
+  * chore: update headers for tf2, update CI
+  * Contributors: wep21
+
+ -- Wolfgang Merkt <opensource@wolfgangmerkt.com>  Tue, 21 Oct 2025 15:00:00 -0000
+
+ros-rolling-octomap-ros (0.4.3-1bookworm) bookworm; urgency=high
+
+  * Fix include order (#15 <https://github.com/OctoMap/octomap_ros/issues/15>)
+  * Contributors: wep21
+
+ -- Wolfgang Merkt <opensource@wolfgangmerkt.com>  Wed, 11 May 2022 15:00:00 -0000
+
+ros-rolling-octomap-ros (0.4.2-1bookworm) bookworm; urgency=high
+
+  * ROS2 Migration (#14 <https://github.com/OctoMap/octomap_ros/issues/14>)
+  * Create ros2 branch off of melodic-devel at 0.4.1. Cf. melodic-devel for original CHANGELOG
+  * Contributors: Wolfgang Merkt, wep21
+
+ -- Wolfgang Merkt <opensource@wolfgangmerkt.com>  Sun, 12 Dec 2021 15:00:00 -0000
+
+
