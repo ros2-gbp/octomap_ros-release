@@ -1,1 +1,1 @@
-{"base": "44ddb7446a17", "parent": "debian/rolling/octomap_ros", "previous": "e055c7a31b0e", "trim": "", "trimbase": ""}
+{"base": "6a8485a", "parent": "debian/lyrical/octomap_ros", "previous": "ac02f2b", "trim": "", "trimbase": ""}
