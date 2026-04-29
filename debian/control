@@ -1,0 +1,13 @@
+Source: ros-lyrical-octomap-ros
+Section: misc
+Priority: optional
+Maintainer: Wolfgang Merkt <opensource@wolfgangmerkt.com>
+Build-Depends: debhelper (>= 9.0.0), liboctomap-dev, ros-lyrical-ament-cmake-auto, ros-lyrical-ament-cmake-gtest <!nocheck>, ros-lyrical-ament-lint-auto <!nocheck>, ros-lyrical-ament-lint-common <!nocheck>, ros-lyrical-octomap-msgs, ros-lyrical-sensor-msgs, ros-lyrical-tf2, ros-lyrical-ros-workspace
+Homepage: http://ros.org/wiki/octomap_ros
+Standards-Version: 3.9.2
+
+Package: ros-lyrical-octomap-ros
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, liboctomap-dev, ros-lyrical-octomap-msgs, ros-lyrical-sensor-msgs, ros-lyrical-tf2, ros-lyrical-ros-workspace
+Description: octomap_ros provides conversion functions between ROS and OctoMap's native types.
+ This enables a convenvient use of the octomap package in ROS.
